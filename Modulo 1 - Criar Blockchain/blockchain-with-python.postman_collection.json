@@ -27,6 +27,22 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "mine_block",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "is_valid",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
