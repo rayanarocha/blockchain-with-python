@@ -63,7 +63,7 @@ class Blockchain:
                                   'receiver': receiver,
                                   'amount': amount})
         previous_block = self.get_previous_block()
-        return previous_block['index'] + 2
+        return previous_block['index'] + 1
     
 app = Flask(__name__)
 
